@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/mithun02/apachewebsite-clone'
+                git branch: 'master', url: 'https://github.com/mithun02/apachewebsite-clone'
             }
         }
 
